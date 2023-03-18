@@ -1,0 +1,108 @@
+body {
+  background-color: wheat;
+  color: white;
+}
+
+.me {
+  width: 400px;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+hr {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border: 0;
+  border-top: 3px dashed white;
+}
+
+.photo {
+  float: left;
+}
+
+ul {
+  list-style: disc;
+  text-align: left;
+  padding-left: 15px;
+}
+
+li {
+  font-weight: bold;
+}
+.ul-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* .introduction { 
+  float: left;
+  text-align: center;
+  /* margin-left: 200px; 
+}*/
+
+.introduce {
+  width: 400px;
+}
+
+.about-me {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-wrapper {
+  display: inline-block;
+  width: 250px;
+  margin: 50px 20px;
+}
+
+.btn {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgb(179, 117, 56);
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+.btn:hover {
+  background-color: white;
+  color: rgb(179, 117, 56);
+  transform: scale(1.12);
+}
+
+.btn-text {
+  position: absolute;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.btn-dis {
+  pointer-events: none;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+}

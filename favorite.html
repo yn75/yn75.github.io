@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home page</title>
+    <link rel="stylesheet" href="./css/favorite.css" />
+  </head>
+  <body>
+    <h1>favorite</h1>
+
+    <div class="up-shelf">
+      <section>
+        <div
+          onclick="obj=document.getElementById('open1').style; obj.display=(obj.display=='none')?'block':'none';"
+        >
+          <a style="cursor: pointer">
+            <img src="./image/mike.png" alt="artist" class="pic" />
+            <div class="list">artist</div>
+          </a>
+        </div>
+        <div id="open1" style="display: none; clear: both">
+          <ul>
+            <li>Yuta Jinguji(King&Prince)</li>
+            <li>Sakura Endo(nogizaka46)</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div
+          onclick="obj=document.getElementById('open2').style; obj.display=(obj.display=='none')?'block':'none';"
+        >
+          <a style="cursor: pointer"
+            ><img src="./image/music.png" alt="music" class="pic" />
+            <div class="list">music</div></a
+          >
+        </div>
+        <div id="open2" style="display: none; clear: both">
+          <ul>
+            <li>Ken Hirai</li>
+            <li>Justin Bieber</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div
+          onclick="obj=document.getElementById('open3').style; obj.display=(obj.display=='none')?'block':'none';"
+        >
+          <a style="cursor: pointer">
+            <img src="./image/place.png" alt="place" class="pic" />
+            <div class="list">place</div></a
+          >
+        </div>
+        <div id="open3" style="display: none; clear: both">
+          <ul>
+            <li>Visiting cafes</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="down-shelf">
+      <section>
+        <div
+          onclick="obj=document.getElementById('open4').style; obj.display=(obj.display=='none')?'block':'none';"
+        >
+          <a style="cursor: pointer">
+            <img src="./image/tv.png" alt="tv" class="pic" />
+            <div class="list">tv</div></a
+          >
+        </div>
+        <div id="open4" style="display: none; clear: both">
+          <ul>
+            <li>MUSIC STATION</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div
+          onclick="obj=document.getElementById('open5').style; obj.display=(obj.display=='none')?'block':'none';"
+        >
+          <a style="cursor: pointer"
+            ><img src="./image/dog.png" alt="dog" class="pic" />
+            <!-- <img src="./image/cat.png" alt="cat" /> -->
+            <div class="list">animal</div></a
+          >
+        </div>
+        <div id="open5" style="display: none; clear: both">
+          <ul>
+            <li>otters</li>
+            <li>rabbit</li>
+            <li>hedgehog</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <div class="list">
+      <div class="btn-wrapper">
+        <a href="./index.html" class="btn"><span class="btn-text">top</span></a>
+      </div>
+      <div class="btn-wrapper">
+        <a href="./profile.html" class="btn"
+          ><span class="btn-text">profile </span></a
+        >
+      </div>
+      <div class="btn-wrapper">
+        <a href="" class="btn btn-dis"
+          ><span class="btn-text">favorite</span></a
+        >
+      </div>
+      <div class="btn-wrapper">
+        <a href="./contact.html" class="btn">
+          <span class="btn-text">SNS</span></a
+        >
+      </div>
+    </div>
+  </body>
+</html>
